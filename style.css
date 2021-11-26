@@ -1,20 +1,58 @@
+@font-face {
+  
+    font-family: 'Quicksand';
+    src: url('Quicksand/Quicksand-VariableFont_wght.ttf');
 
- /* links */
-  a:link{
-        color: #85c28a;
-        text-decoration: none;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+} 
+ 
+.navbar {
+    font-size: 1.35rem;
+    background-color: #ffffff;
+    position: fixed;
+    top:0; 
+    width: 100%; 
+    font-family: 'Quicksand', sans-serif;
+    padding: 1rem;
+        }
+
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+    transition: color 0.2s ease;
+}
+
+    .navbar .menu li a{
+        color: #ffb560; 
     }
 
-    a:visited{
-        color: #85c28a;
-        ;
-    }
 
-    a:active {
-        color: #13b19c;
-    }
+.navbar .menu li a:hover {
+    color: #ff9b74
+}
 
+.hamburger {
+    color: #ff9b74; 
+}
 
+.navbar .max-width {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.max-width{
+    margin: auto;
+    padding: 0 1.5rem;
+    max-width: 830px; 
+}
+    
 /* text*/
 body {
     /*background-color: #ffeee4;*/
@@ -26,15 +64,9 @@ img.header{
     max-width: 25%;
 }
 
-@font-face {
-  
-    font-family: 'Quicksand';
-    src: url('Quicksand/Quicksand-VariableFont_wght.ttf');
 
-}
 h2,h3,h4, header {
     font-family:  Quicksand,  sans-serif;       
-    text-align: center;
 }
 
         h2{
@@ -53,15 +85,14 @@ h2,h3,h4, header {
 
         }
 
-        header {
-            font-size: 1.25rem;
-            background-color: #ffffff;
-              
-        }
-    
+
+
+.header {
+    padding: 2rem; 
+}  
 
 /*images*/
-.image {
+.logo {
     max-width:  100%;
     height: auto;
 }
@@ -73,15 +104,28 @@ h2,h3,h4, header {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-}
-
-.header {
-padding: 2rem;
+    margin-top:150px;
 }
 
 .portrait {
     max-width:  100%;
     height: auto;
+    margin-top:150px;
+    margin-left: 5%;
+    float: left;
+}
+
+.info {
+    margin-top:170px;
+    margin-left: 35%;
+    margin-right: 5%;
+    text-indent: 30px;
+}
+
+.more {
+    margin-left: 35%;
+    margin-right: 5%;
+    text-indent: 30px;
 }
 
 .resume {
