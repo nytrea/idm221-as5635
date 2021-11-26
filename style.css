@@ -71,12 +71,13 @@ h2,h3,h4, header {
 
         h2{
             font-size: 1.5rem;
-            color:  #ff7c74
-            ;
+            color:  #ff7c74 ;
         }
 
         h3{
             font-size: 1.125rem;
+            color:  #664c4c ;
+
         }
 
         h4{
@@ -138,8 +139,43 @@ h2,h3,h4, header {
 
 .gallery {
     max-width: 100%;
-    width: 85%;
+    width: 80%;
     display: block;
     height: auto;
     margin: 1.5rem auto;
+    margin-top: 13rem;
+    float: left;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1.5rem;
+}
+
+.column{
+    flex:50%;
+    max-width: 50%;
+    margin-top: 10rem;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 2rem;
+    vertical-align: middle;
+    width:95%;
+}
+
+.genre{
+    color: #ff7c74;
+    font-family: 'Quicksand', sans-serif;
+    margin: 1.5 rem auto;
+    font-size: 1.35rem;
+    margin-top: 500px;
+    text-align: center;
+
+}
+
+.email {
+    margin-top: 2rem;
 }
