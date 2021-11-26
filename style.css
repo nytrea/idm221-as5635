@@ -17,7 +17,8 @@
 
 /* text*/
 body {
-    background-color: #ffeee4;
+    /*background-color: #ffeee4;*/
+    background-color: #ffe3d2 ;
     margin: 0;
 }
 
@@ -26,17 +27,13 @@ img.header{
 }
 
 @font-face {
-    font-family: 'NanumGothic';
-    src: url('Nanum_Gothic/NanumGothic-Regular.ttf');
-
+  
     font-family: 'Quicksand';
     src: url('Quicksand/Quicksand-VariableFont_wght.ttf');
 
-    font-family: 'ZenKaku';
-    src: url('Zen_Kaku_Gothic_New/ZenKakuGothicNew-Regular.ttf');
 }
 h2,h3,h4, header {
-    font-family: ZenKaku, Quicksand,  sans-serif;       
+    font-family:  Quicksand,  sans-serif;       
     text-align: center;
 }
 
@@ -57,8 +54,9 @@ h2,h3,h4, header {
         }
 
         header {
+            font-size: 1.25rem;
             background-color: #ffffff;
-            color: #ffd4b9;
+              
         }
     
 
@@ -77,6 +75,15 @@ h2,h3,h4, header {
     width: 70%;
 }
 
+.header {
+padding: 2rem;
+}
+
+.portrait {
+    max-width:  100%;
+    height: auto;
+}
+
 .resume {
     max-width: 100%;
     width: 85%;
@@ -85,7 +92,7 @@ h2,h3,h4, header {
     margin: 1.5rem auto;
 }
 
-.resume {
+.gallery {
     max-width: 100%;
     width: 85%;
     display: block;
